@@ -225,6 +225,43 @@ footer .questions {
 
 }
 
+
+.email-signin-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.email-signin-container h2,
+.email-signin-container p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 1300px) {
 
     nav {
@@ -299,48 +336,17 @@ footer .questions {
     gap: 23px;
 }
 
-.email-signin-container {
-    text-align: center;
-    padding: 40px 20px;
-}
 
-.email-signin-container h2,
-.email-signin-container p {
-    color: white;
-    margin-bottom: 10px;
-}
-
-.hero-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.email-input {
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-.btn-red {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .hero-buttons {
-        flex-direction: column; /* Stack email and button on top of each other */
+        flex-direction: column;
+        /* Stack email and button on top of each other */
         width: 100%;
     }
 
     .email-input {
-        width: 80%; /* Adjust width for smaller screens */
+        width: 80%;
+        /* Adjust width for smaller screens */
     }
 
     .btn-red {

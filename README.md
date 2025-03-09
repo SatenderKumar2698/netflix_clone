@@ -26,7 +26,7 @@ A simple **Netflix Clone** built using **HTML & CSS** that replicates the homepa
 
 
 ## 🌎 Live Demo
-Check out the live version here: [Netflix Clone](https://your-live-demo-url.com)
+Check out the live version here: [Netflix Clone](https://satenderkumar2698.github.io/netflix_clone/)
 
 ## 💡 Future Improvements
 - Add **JavaScript** for interactive elements.
